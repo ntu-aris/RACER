@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(uav_utils)
 
+set(CMAKE_BUILD_TYPE "Release")
+set(CMAKE_CXX_FLAGS "-std=c++17")
+set(CMAKE_CXX_FLAGS "-O3 -Wall")
+
 ## Turn on verbose output
 set(CMAKE_VERBOSE_MAKEFILE "true")
 
